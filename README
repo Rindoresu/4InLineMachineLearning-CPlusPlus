@@ -1,0 +1,23 @@
+- para ej2a grid search:
+
+	compilar grid.cpp:
+	g++ -std=c++11 grid.cpp -o grid
+
+	ejecutar grid, luego de finalizar inputGrid.txt contiene los mejores pesos para 
+	estrategia de jugador
+
+- para averiguar porcentaje de 1000 partidos contra random player:
+	compilar:
+	g++ torneo1000.cpp torneo
+	asignar a inputGoloso.txt los parámetros en siguiente orden:
+	i) C_parametros
+	ii) C_parametros_oponente
+	iii) C_parametros_oponente_doble
+	iv) mi_peso
+	v) peso_contrincante
+	vi) C_parametros_peso_particionar
+	vii) parametro_oponente_gana
+	ejecutar torneo
+	por pantalla se indica el porcentaje de ganadas por goloso4 vs random
+
+- El archivo outputGrid_exh_vs_abr.csv contiene los resultados obtenidos al correr experimento grid search abarcativo vs exhaustivo. Estos se obtuvieron con algoritmo grid search. 
